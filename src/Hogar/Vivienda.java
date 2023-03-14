@@ -10,6 +10,9 @@ package Hogar;
  * @author paqui
  */
 public class Vivienda {
+    /**
+     * Describe como es la vivienda
+     */
 
     /**
      * @return the precio
@@ -97,11 +100,29 @@ public class Vivienda {
 
     public Vivienda(double precio, int numHabitaciones, double superficie, boolean parking, String estado, String propietario) {
         this.precio = precio;
+        /**
+     * Valor de la vivienda
+     */
         this.numHabitaciones = numHabitaciones;
+        /**
+     * nuemero de habitaciones
+     */
         this.superficie = superficie;
+        /**
+     * metros cuadros de terreno
+     */
         this.parking = parking;
+        /**
+     * tiene o no parking
+     */
         this.estado = estado;
+        /**
+     * estado actual de la vivienda
+     */
         this.propietario = propietario;
+        /**
+     * nombre dle propietario
+     */
     }
     
     private double precio;
